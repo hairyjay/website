@@ -1,3 +1,94 @@
 body {
     font-family: 'Ovo', serif;
+    background-color: #fdfaf6;
+}
+
+.section-title {
+    border-bottom: 1.5px solid #363636;
+    margin-bottom: 48px;
+}
+
+.tt {
+    font-size: 16px;
+}
+
+.is-research {
+    margin: 8px;
+    background-color: #fffefc;
+    border: 1px solid #a4a29d;
+    padding: .5rem !important;
+}
+
+.is-research > .research-cat {
+    color: #ffffff;
+    display: inline-block;
+    padding: 2px 10px;
+    margin: 0 10px 5px -17px;
+}
+
+.research-cat > a {
+    color: inherit;
+}
+
+.research-cat > a > i {
+    font-size: 12px;
+    padding: 0 0 0 6px;
+    vertical-align: 1px;
+}
+
+.is-research > .research-bug {
+    color: #ffffff;
+    background-color: #a4a29d !important;
+    padding: 2px 10px;
+    margin: 0 -9px 5px 0;
+    float: right;
+    font-style: italic;
+}
+
+.research-date {
+    display: inline-block;
+    width: 60px;
+}
+
+.research-place {
+    padding: 0 10px 0 0;
+    margin: 0 4px 0 0;
+    border-right: solid 1px #ffffff;
+}
+
+.is-research > .columns {
+    margin: 0;
+}
+
+.is-jour-paper {
+    background-color: #153b62 !important;
+}
+
+.is-conf-paper {
+    background-color: #1a578d !important;
+}
+
+.is-work-paper {
+    background-color: #418db8 !important;
+}
+
+.is-panel {
+    background-color: #e2b204 !important;
+}
+
+.is-event {
+    background-color: #dc6211 !important;
+}
+
+.is-app {
+    background-color: #dc032e !important;
+}
+
+.is-research > .subtitle, .is-research * > .subtitle {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.is-research * > .image {
+    border: 1px solid #a4a29d;
 }
