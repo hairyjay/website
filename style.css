@@ -19,7 +19,7 @@ body {
     padding: .5rem !important;
 }
 
-.is-research > .research-cat {
+.is-research > .research-cat, .is-research * > .research-cat {
     color: #ffffff;
     display: inline-block;
     padding: 2px 10px;
@@ -36,7 +36,7 @@ body {
     vertical-align: 1px;
 }
 
-.is-research > .research-bug {
+.is-research > .research-bug, .is-research * > .research-bug {
     color: #ffffff;
     background-color: #a4a29d !important;
     padding: 2px 10px;
