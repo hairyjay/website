@@ -1,6 +1,6 @@
 body {
     font-family: 'Ovo', serif;
-    background-color: #fdfaf6;
+    background-color: #fbfaf8;
 }
 
 .section-title {
@@ -14,7 +14,7 @@ body {
 
 .is-research {
     margin: 8px;
-    background-color: #fffefc;
+    background-color: #fdfdfc;
     border: 1px solid #a4a29d;
     padding: .5rem !important;
 }
