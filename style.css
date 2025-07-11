@@ -1,6 +1,15 @@
+html {
+    background-color: #fff;
+}
+
 body {
     font-family: 'Ovo', serif;
-    background-color: #fbfaf8;
+    /* background-color: #fbfaf8; */
+}
+
+.title {
+    font-family: 'Helvetica Neue';
+    /* color: #083898; */
 }
 
 .section-title {
