@@ -23,7 +23,7 @@ body {
 
 .is-research {
     margin: 8px;
-    background-color: #fdfdfc;
+    /* background-color: #fdfdfc; */
     border: 1px solid #a4a29d;
     padding: .5rem !important;
 }
@@ -31,7 +31,7 @@ body {
 .is-research > .research-cat, .is-research * > .research-cat {
     color: #ffffff;
     display: inline-block;
-    padding: 2px 10px;
+    padding: 1px 8px 2px;
     margin: 0 0 5px -17px;
 }
 
@@ -45,10 +45,24 @@ body {
     vertical-align: 1px;
 }
 
+.research-cat, .research-bug, .research-sub-bug {
+    font-family: 'Helvetica Neue';
+    font-weight: bold;
+}
+
 .is-research > .research-bug, .is-research * > .research-bug {
     color: #ffffff;
     background-color: #a4a29d !important;
-    padding: 2px 10px;
+    padding: 1px 8px 2px;
+    margin: 0 -9px 5px 0;
+    float: right;
+    font-style: italic;
+}
+
+.is-research > .research-sub-bug, .is-research * > .research-sub-bug {
+    color: #ffffff;
+    background-color: #d1cfca !important;
+    padding: 1px 8px 2px;
     margin: 0 -9px 5px 0;
     float: right;
     font-style: italic;
